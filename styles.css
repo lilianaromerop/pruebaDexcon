@@ -1,0 +1,38 @@
+@font-face{
+    font-family: GOTHIC;
+    src: url(fonts/GOTHIC.TTF);
+}
+@font-face{
+    font-family: RALEWAY;
+    src: url(fonts/Raleway-Regular.ttf);
+}
+
+.slider{
+    background: url("img/mainPicture.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    font-family: GOTHIC;
+}
+
+body{
+    font-family: RALEWAY;
+}
+
+a{
+    color: none;
+}
+
+h1, h5 {
+    font-family: GOTHIC;
+}
+
+.footer{
+    margin-top: 48px;
+}
+
+.carousel{
+    width: 800px;
+    display: flex ;
+    justify-content: center;
+}
