@@ -29,9 +29,9 @@
         <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
             <a class="navbar-brand" href="#"></a>
             <a class="nav-item nav-link" href="index.html">Inicio</a>
-            <a class="nav-item nav-link active" href="#">Nosotros</a>
-            <a class="nav-item nav-link" href="servicios.html">Servicio</a>
-            <a class="nav-item nav-link" href="contacto.html">Contactos</a>
+            <a class="nav-item nav-link" href="nosotros.html">Nosotros</a>
+            <a class="nav-item nav-link" href="servicios.html">Servicios</a>
+            <a class="nav-item nav-link active" href="#">Contacto</a>
         <form class="form-inline my-2 my-lg-0">
             <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search">
             <button class="btn btn-primary my-2 my-sm-0" type="submit">Buscar</button>
@@ -47,22 +47,42 @@
         </div> 
     </nav>
 
-    <section class="container mt-1 pt-1 text-center">
-        <h3 class="text-uppercase font-italic text-center mt-4 p-4">nuestra empresa</h3>
-        <div class="container m-4 text-center">
-            <img src="img/Nosotros.png" class="img-fluid" alt="Responsive image">
+    <section class="container mt-5">
+      <h3 class="text-uppercase font-italic text-center mt-4 p-4">contáctanos</h3>
+      <form>
+        <div class="form-group">
+          <label for="formGroupExampleInput">Tu nombre:</label>
+          <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Nombre y apellido">
         </div>
-        <p class="text-justify mt-5">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates deserunt vitae officia consequatur aliquid ad eum blanditiis rerum cumque, quisquam atque labore corrupti praesentium laboriosam optio unde obcaecati sit magnam vero error. Suscipit aspernatur tenetur neque libero quasi iste incidunt, laudantium repudiandae architecto nisi iusto, omnis atque amet eius veniam?
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates deserunt vitae officia consequatur aliquid ad eum blanditiis rerum cumque, quisquam atque labore corrupti praesentium laboriosam optio unde obcaecati sit magnam vero error. Suscipit aspernatur tenetur neque libero quasi iste incidunt, laudantium repudiandae architecto nisi iusto, omnis atque amet eius veniam?
-        </p>
+        <div class="form-group">
+          <label for="exampleFormControlInput1">Tu email:</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlSelect1">Servicio que necesitas:</label>
+          <select class="form-control" id="exampleFormControlSelect1">
+            <option>Estrategia</option>
+            <option>Diseño</option>
+            <option>Analítica</option>
+            <option>Mercadeo</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlTextarea1">Cuéntanos como podemos ayudarte:</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+        <div class="col-auto">
+          <button type="submit" class="btn btn-primary mb-2">Enviar</button>
+        </div>
+      </form>
     </section>
-    <hr class="my-4">
-    <section class="footer text-center mt-5">
+    
+    <div class="footer text-center mt-5 align-items-center">
+        <hr class="my-4">
         <span>© 2019 Prueba de Conocimiento</span></br>
         <a href="https://www.dexcondigital.com/">Dexcon Digital</a>
-    </section>
-   
+    </div>
+    
 </body>
 </html>
 
