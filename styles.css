@@ -36,3 +36,13 @@ h1, h5 {
     display: flex ;
     justify-content: center;
 }
+
+.nav.navbar{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: gray;
+    color: gray !important;
+}
+
+.card:hover {
+    box-shadow: gray;
+}
